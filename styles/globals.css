@@ -1,16 +1,51 @@
-html,
-body {
-  padding: 0;
+html, body {
+  background: lightseagreen;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
 }
 
-a {
-  color: inherit;
+article {
+  background: lightyellow;
+  border: 3px solid dimgray;
+  border-radius: 12px;
+  margin: 15px;
+}
+
+article img {
+  padding: 0 25px;
+}
+
+article > header {
+  padding: 15px 50px 0;
+}
+
+article > header h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+nav {
+  margin: 10px;
+}
+
+nav a {
+  background: lightsalmon;
+  border: 1px solid ivory;
+  border-radius: 12px;
+  color: maroon;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+nav a:hover {
+  background: indianred;
+  color: ivory;
+}
+
+section {
+  padding: 10px 25px;
 }
