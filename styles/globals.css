@@ -6,6 +6,8 @@ html, body {
   padding: 0;
 }
 
+.title-header { padding: 10px 25px; }
+
 article {
   background: lightyellow;
   border: 3px solid dimgray;
